@@ -162,7 +162,7 @@ export default function Home() {
       </main>
 
       <footer className="site-footer">
-        <div className="site-wrap footer-inner"><a className="brand" href="#top"><span className="brand-icon"><Leaf size={21} /></span>Eco<span>Planet</span></a><p>Орындаған: ПО2602 тобының студенті Недилько Артем.</p><a href="#sources">Дереккөздер</a></div>
+        <div className="site-wrap footer-inner"><a className="brand" href="#top"><span className="brand-icon"><Leaf size={21} /></span>Eco<span>Planet</span></a><a href="#sources">Дереккөздер</a></div>
       </footer>
       {presenting && <Presentation open={presenting} onClose={() => setPresenting(false)} />}
     </MotionConfig>
